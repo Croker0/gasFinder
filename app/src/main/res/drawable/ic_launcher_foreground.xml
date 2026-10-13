@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- корпус топливной колонки -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,26 h20 a5,5 0 0 1 5,5 v40 a5,5 0 0 1 -5,5 h-20 a5,5 0 0 1 -5,-5 v-40 a5,5 0 0 1 5,-5 z" />
+
+    <!-- табло -->
+    <path
+        android:fillColor="#0F5132"
+        android:pathData="M39,34 h16 v9 h-16 z" />
+
+    <!-- основание -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,76 h32 a3,3 0 0 1 0,6 h-32 a3,3 0 0 1 0,-6 z" />
+
+    <!-- шланг и пистолет -->
+    <path
+        android:fillColor="#EF8A17"
+        android:pathData="M66,34 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#EF8A17"
+        android:pathData="M68,40 h6 v4 h-6 z" />
+    <path
+        android:fillColor="#EF8A17"
+        android:pathData="M70,44 h4 v16 h-4 z" />
+    <path
+        android:fillColor="#EF8A17"
+        android:pathData="M66,56 h8 v8 h-8 z" />
+</vector>

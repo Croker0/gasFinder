@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения: интерфейс полностью на Jetpack Compose,
+         поэтому нужна лишь тема без ActionBar. -->
+    <style name="Theme.GasFinder" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

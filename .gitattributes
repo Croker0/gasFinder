@@ -1,0 +1,14 @@
+# Нормализация переводов строк между Windows/Linux/macOS.
+# Без этого Git ругается на каждый файл при работе на Windows.
+* text=auto eol=lf
+
+# Скрипты Windows должны остаться с CRLF, иначе cmd их не выполнит
+*.bat text eol=crlf
+
+# Бинарные файлы не трогаем
+*.png binary
+*.jpg binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.keystore binary

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заправка рядом</string>
+
+    <!-- Навигация -->
+    <string name="nav_map">Карта</string>
+    <string name="nav_list">Список</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="nav_add">Добавить АЗС</string>
+    <string name="back">Назад</string>
+
+    <!-- Онбординг -->
+    <string name="onboarding_title_1">Заправка рядом</string>
+    <string name="onboarding_text_1">Найдите ближайшую автозаправочную станцию по вашей геолокации — за пару секунд, без поиска по карте вручную.</string>
+    <string name="onboarding_title_2">Карта и список</string>
+    <string name="onboarding_text_2">Смотрите АЗС на карте OpenStreetMap или в списке, отсортированном по расстоянию. Фильтруйте по виду топлива и удобствам.</string>
+    <string name="onboarding_title_3">Разрешите геолокацию</string>
+    <string name="onboarding_text_3">Чтобы посчитать расстояние до заправок, приложению нужен доступ к вашему местоположению. Данные не покидают устройство.</string>
+    <string name="onboarding_next">Далее</string>
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_start">Начать</string>
+    <string name="onboarding_grant">Разрешить геолокацию</string>
+
+    <!-- Главный экран -->
+    <string name="nearest_station">Ближайшая заправка</string>
+    <string name="search_hint">Поиск по названию или адресу</string>
+    <string name="filter_fuel">Вид топлива</string>
+    <string name="filter_all">Все</string>
+    <string name="only_open_24">Круглосуточные</string>
+    <string name="sort_by_distance">Сначала ближайшие</string>
+    <string name="stations_found">Найдено АЗС</string>
+    <string name="list_empty">Ничего не найдено. Измените фильтры.</string>
+    <string name="location_unknown">Местоположение не определено</string>
+    <string name="location_searching">Определяем местоположение…</string>
+    <string name="permission_required">Без разрешения на геолокацию расстояние посчитать нельзя</string>
+    <string name="grant_permission">Разрешить доступ</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="demo_location_hint">Похоже, вы далеко от Екатеринбурга. Включите демо-локацию в профиле, чтобы увидеть демонстрацию.</string>
+    <string name="my_location">Я здесь</string>
+
+    <!-- Карточка АЗС -->
+    <string name="distance">Расстояние</string>
+    <string name="prices">Цены</string>
+    <string name="amenities">Удобства</string>
+    <string name="amenity_cafe">Кафе</string>
+    <string name="amenity_shop">Магазин</string>
+    <string name="amenity_wash">Мойка</string>
+    <string name="amenity_24">Круглосуточно</string>
+    <string name="route">Маршрут</string>
+    <string name="call">Позвонить</string>
+    <string name="add_to_favorites">В избранное</string>
+    <string name="remove_from_favorites">Убрать из избранного</string>
+    <string name="favorites">Избранное</string>
+    <string name="no_favorites">Избранных АЗС пока нет</string>
+    <string name="no_custom_stations">Своих АЗС пока нет — добавьте кнопкой выше</string>
+
+    <!-- Добавление АЗС -->
+    <string name="add_station_title">Новая АЗС</string>
+    <string name="field_name">Название</string>
+    <string name="field_brand">Бренд</string>
+    <string name="field_address">Адрес</string>
+    <string name="field_latitude">Широта</string>
+    <string name="field_longitude">Долгота</string>
+    <string name="use_current_location">Взять текущее местоположение</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="station_saved">АЗС сохранена</string>
+    <string name="station_deleted">АЗС удалена</string>
+    <string name="required_field">Заполните обязательные поля</string>
+
+    <!-- Профиль -->
+    <string name="profile_title">Профиль и настройки</string>
+    <string name="settings_demo_location">Демо-локация (Екатеринбург)</string>
+    <string name="settings_demo_location_desc">Игнорировать реальные координаты и показывать центр Екатеринбурга — удобно для демонстрации.</string>
+    <string name="settings_preferred_fuel">Предпочитаемое топливо</string>
+    <string name="settings_units">Показывать расстояние в километрах</string>
+    <string name="settings_reset">Сбросить настройки</string>
+    <string name="settings_reset_done">Настройки сброшены</string>
+    <string name="about">О приложении</string>
+    <string name="about_text">Учебный проект по дисциплине «Разработка мобильных приложений». Карта — OpenStreetMap (osmdroid), данные об АЗС хранятся локально в приложении.</string>
+    <string name="my_stations">Мои АЗС</string>
+</resources>
